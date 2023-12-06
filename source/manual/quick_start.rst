@@ -83,7 +83,7 @@
 	:linenos:
 
 	ros2 run frhand_eye HE_calculation
-	
+
    
 这一步只需运行对应程序，程序自动读取之前的八组标定数据txt文件，计算出手眼标定矩阵并打印在终端中。
 获得的手眼标定矩阵需要放入frvision_remote_service功能包中的ConnectCloud.cpp源文件中的第292行处，如图2-6所示。
@@ -108,7 +108,11 @@
 
 在Ubuntu下打开命令行，输入：
 
-1. ./fr_weld.sh 
+.. code-block:: shell
+	:linenos:
+
+	./fr_weld.sh 
+
 
 如图2-7所示，法奥ROS2主程序、视觉模块、离线编程软件一键启动。
 
