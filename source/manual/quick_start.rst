@@ -20,7 +20,7 @@
 
 .. figure:: quick_start/002.png
 	:align: center
-	:width: 6in
+	:width: 4in
 
 .. centered:: 图表 2-2 安装相机和焊枪
 
@@ -37,7 +37,7 @@
 
 .. figure:: quick_start/003.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 2-3 设置工具坐标
 
@@ -47,7 +47,7 @@
 
 .. figure:: quick_start/004.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 2-4 四点法和六点法
 
@@ -56,7 +56,7 @@
 
 .. figure:: quick_start/005.png
 	:align: center
-	:width: 6in
+	:width: 4in
 
 .. centered:: 图表 2-5 六点法标定工具坐标系
 
@@ -137,7 +137,7 @@
 
 .. figure:: quick_start/009.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 2-9 设置安装角度和获取DH补偿参数
 
@@ -179,7 +179,7 @@
 
 .. figure:: quick_start/012.png
 	:align: center
-	:width: 6in
+	:width: 5in
 
 .. centered:: 图表 2-12 拍摄照片位置示意图
 
@@ -192,7 +192,7 @@
 
 .. figure:: quick_start/013.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 2-13 拍摄照片
 
@@ -207,7 +207,7 @@
 
 .. figure:: quick_start/014.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 2-14 一键拍照
 
@@ -221,7 +221,7 @@
 
 .. figure:: quick_start/015.png
 	:align: center
-	:width: 6in
+	:width: 5in
 
 .. centered:: 图表 2-15 获取工件点云和变换矩阵
 
@@ -236,7 +236,7 @@
 
 .. figure:: quick_start/016.png
 	:align: center
-	:width: 6in
+	:width: 2.5in
 
 .. centered:: 图表 2-16 坐标系设置
 

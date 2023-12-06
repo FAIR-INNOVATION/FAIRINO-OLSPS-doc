@@ -120,7 +120,7 @@
 
 .. figure:: analysis/015.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-3 模型场景区
 
@@ -129,7 +129,7 @@
 
 .. figure:: analysis/016.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-4 机器人安装角度设置
 
@@ -138,7 +138,7 @@
 
 .. figure:: analysis/017.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-5 DH参数设置
 
@@ -152,7 +152,7 @@
 
 .. figure:: analysis/018.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-6 工具坐标系设置
 
@@ -161,7 +161,7 @@
 
 .. figure:: analysis/019.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-7 工件坐标系设置
 
@@ -170,7 +170,7 @@
 
 .. figure:: analysis/020.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-8 坐标系选择
 
@@ -201,7 +201,7 @@
 
 .. figure:: analysis/022.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-10 关节空间运动
 
@@ -210,7 +210,7 @@
 
 .. figure:: analysis/023.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-10 笛卡尔空间运动
 
@@ -219,7 +219,7 @@
 
 .. figure:: analysis/024.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-12 同步位姿和移至该点
 
@@ -234,7 +234,7 @@ AO 操作：选择端口号，右侧输入框输入值（0-100），该数值为
 
 .. figure:: analysis/025.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-13  IO控制
 
@@ -250,7 +250,7 @@ AO 操作：选择端口号，右侧输入框输入值（0-100），该数值为
 
 .. figure:: analysis/026.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-14  外部轴控制
 
@@ -283,7 +283,7 @@ AO 操作：选择端口号，右侧输入框输入值（0-100），该数值为
 
 .. figure:: analysis/029.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-17   程序模块
 
@@ -296,7 +296,7 @@ AO 操作：选择端口号，右侧输入框输入值（0-100），该数值为
 
 .. figure:: analysis/030.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-18   点位拾取
 
@@ -312,7 +312,7 @@ AO 操作：选择端口号，右侧输入框输入值（0-100），该数值为
 
 .. figure:: analysis/031.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-19   线段拾取
 
@@ -329,7 +329,7 @@ AO 操作：选择端口号，右侧输入框输入值（0-100），该数值为
 
 .. figure:: analysis/032.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-20  仿真运行
 
@@ -341,7 +341,7 @@ AO 操作：选择端口号，右侧输入框输入值（0-100），该数值为
 
 .. figure:: analysis/033.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-21  轨迹数据
 
@@ -354,7 +354,7 @@ AO 操作：选择端口号，右侧输入框输入值（0-100），该数值为
 
 .. figure:: analysis/034.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 .. centered:: 图表 3-22  日志管理
 
