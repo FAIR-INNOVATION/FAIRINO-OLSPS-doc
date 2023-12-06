@@ -68,16 +68,22 @@
 
 打开终端输入以下命令：
 
-1. cd ros2_ws
-   
-2. source install/setup.bash
-   
-2- ros2 run frhand_eye get_HE_data
+.. code-block:: shell
+	:linenos:
+
+	cd ros2_ws
+	source install/setup.bash
+	ros2 run frhand_eye get_HE_data
+
 
 运行标定拍照程序对标定球阵列拍摄多组点云数据。这一步中需要控制机器人以八个不同的位姿拍摄八组不同角度的标定球阵列点云数据，其中前四次拍摄通过离线编程软件的机器人控制模块，点击笛卡尔空间运动中的平移按钮使机器人平移运动。每次运动完需确保相机能完整拍摄到标定球阵列范围，终端输入回车键完成一次拍摄。后四次拍摄则需要手动拖动机器人以不同的位姿（位置和姿态都不同）来拍摄标定球阵列，同样每次拖动完确保相机能完整拍摄到标定球阵列范围，终端输入回车键完成一次拍摄。至此完成了八组标定数据的获取，在程序目录下生成了cam.txt和tcp.txt两个文件，分别存储了每次拍摄到的标定球阵列点云数据的五个球心坐标和机器人末端法兰盘笛卡尔空间位姿数据。
 获取完数据后关闭拍照程序，终端输入以下命令运行手眼标定矩阵计算程序：
 
-1. ros2 run frhand_eye HE_calculation
+.. code-block:: shell
+	:linenos:
+
+	ros2 run frhand_eye HE_calculation
+	
    
 这一步只需运行对应程序，程序自动读取之前的八组标定数据txt文件，计算出手眼标定矩阵并打印在终端中。
 获得的手眼标定矩阵需要放入frvision_remote_service功能包中的ConnectCloud.cpp源文件中的第292行处，如图2-6所示。
@@ -90,9 +96,11 @@
 
 保存程序后，打开终端，重新编译视觉包
 
-1. cd ros2_ws
+.. code-block:: shell
+	:linenos:
 
-2. colcon build --packages-select frvision_remote_service 
+	cd ros2_ws
+	colcon build --packages-select frvision_remote_service 
 
 
 一键启动

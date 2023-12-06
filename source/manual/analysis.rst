@@ -24,7 +24,11 @@
 
 在Ubuntu下打开命令行，输入：
 
-1. ./fr_weld.sh 
+.. code-block:: shell
+	:linenos:
+
+	./fr_weld.sh 
+
 
 法奥ROS2主程序、视觉模块、离线编程软件一键启动。
 
