@@ -11,3 +11,4 @@
    :caption: 用户手册
 
    manual/index.rst
+   manual/AIRLab/airlab_intro
