@@ -95,12 +95,19 @@ body {
 }
 
 .figure-border {
-    border: 1px solid #404040;
+    border: 0.75pt solid #f5f3f3;
+    padding: 10px;
 }
-.rst-content div.figure, 
+.rst-content figure img {
+    border: 0.75px solid black; /* 边框宽度为 0.75 像素，颜色为黑色 */
+}
 .rst-content figure {
     margin-bottom: 24px !important;
 }
 .rst-content .section>a>img, .rst-content .section>img, .rst-content section>a>img, .rst-content section>img {
     margin-bottom: 24px !important;
+}
+p[class="centered"] strong {
+    font-size: smaller;
+    font-weight: normal;
 }

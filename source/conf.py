@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = '法奥离线软件说明文档'
-copyright = '2023, 法奥意威（苏州）机器人系统有限公司'
+project = '法奥AIRLAB软件用户手册'
+copyright = '2024, 法奥意威（苏州）机器人系统有限公司'
 author = '法奥意威（苏州）机器人系统有限公司'
 release = '1.0'
 
