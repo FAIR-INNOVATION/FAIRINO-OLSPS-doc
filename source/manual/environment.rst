@@ -14,13 +14,7 @@
 
 系统镜像准备
 -------------------
-法奥AIRLab初版镜像版本可以通过百度网盘获取：
-
-链接：https://pan.baidu.com/s/1Q5tAIsoYbcF7tUrK_q0QhA?pwd=i1i2
-
-提取码：i1i2
-
-下载到系统镜像存放U盘。
+法奥AIRLab初版镜像版本联系法奥技术人员获取。下载到系统镜像存放U盘。
 
 启动盘制作
 -------------------
@@ -34,7 +28,7 @@
 	:align: center
 	:width: 3.5in
 
-.. centered:: 图2-1 选择IOS模式
+.. centered:: 图2-1    选择IOS模式
 
 3. 点击浏览，选择Rescuezilla镜像文件并点击保存。
 
@@ -42,7 +36,7 @@
 	:align: center
 	:width: 3.5in
 
-.. centered:: 图2-2 选择Rescuezilla镜像文件
+.. centered:: 图2-2    选择Rescuezilla镜像文件
 
 4. 点击开始制作，在弹出的提示选择ISO对话框中选择否。
 
@@ -50,7 +44,7 @@
 	:align: center
 	:width: 3.5in
 
-.. centered:: 图2-3 选择“否”
+.. centered:: 图2-3    选择“否”
 
 5. 在弹出的ISO制作窗口中，在硬盘驱动器栏中选择目标U盘设备，点击写入即可开始制作引导U盘。等待写入操作结束即可弹出U盘。
 
@@ -58,11 +52,10 @@
 	:align: center
 	:width: 3.5in
 
-.. centered:: 图2-4 写入U盘
+.. centered:: 图2-4    写入U盘
 
 .. important:: 
   此操作会清空U盘所有数据，务必确认U盘是否适合制作引导U盘！
-
 
 
 安装系统镜像并启动
@@ -77,7 +70,7 @@
 	:align: center
 	:width: 5in
 
-.. centered:: 图2-5 进入BIOS页面
+.. centered:: 图2-5   进入BIOS页面
 
 2. 点击菜单栏中的Boot->Boot Priority选项，进入启动项设置子界面
 
@@ -85,7 +78,7 @@
 	:align: center
 	:width: 5in
 
-.. centered:: 图2-6 进入启动项设置子页面
+.. centered:: 图2-6   进入启动项设置子页面
 
 3. 在子界面中，点击Priority #1 的选项框并选择U盘对应的启动项。按键盘的F10，保存修改启动项并退出，在弹出的选项框中选YES，机器会自动保存设置并重启。
 
@@ -93,7 +86,8 @@
 	:align: center
 	:width: 5in
 
-.. centered:: 图2-7 修改启动项并保存修改
+.. centered:: 图2-7  
+	 修改启动项并保存修改
 
 
 还原系统镜像
@@ -151,7 +145,7 @@
 	:align: center
 	:width: 5in
 
-.. centered:: 图2-14 在弹出的弹窗中选择“是”
+.. centered:: 图2-14  在弹出的弹窗中选择“是”
 
 7. 进入还原程序，等待进度条结束即可，根据需要恢复数据的容量不同，此过程可能会持续数十分钟。
 
@@ -159,7 +153,7 @@
 	:align: center
 	:width: 5in
 
-.. centered:: 图2-15 进入还原程序
+.. centered:: 图2-15  进入还原程序
 
 启动AIRLab软件
 ~~~~~~~~~~~~~~~~~~~
@@ -170,37 +164,12 @@
 	:align: center
 	:width: 5in
 
-.. centered:: 图2-16 进入系统
+.. centered:: 图2-16  进入系统
 
-2. 点击左侧文件夹图标，进入下以下界面。
+2. 点击AIRLab软件启动图标即可启动AIRLab软件系统，接下来就可以根据我们的用户手册进行软件操作了。
 
 .. figure:: environment/17.png
 	:align: center
 	:width: 5in
 
-.. centered:: 图2-17 系统主目录
-
-3. 在空白处右键弹出菜单栏，点击“在终端中打开”。
-
-.. figure:: environment/18.png
-	:align: center
-	:width: 5in
-
-.. centered:: 图2-18 在系统主目录下打开终端
-
-4. 在终端中输入以下字符“./airlab.sh”，回车。
-
-.. figure:: environment/19.png
-	:align: center
-	:width: 5in
-
-.. centered:: 图2-19 启动AIRLab软件
-
-5. 即可启动AIRLab系统，接下来就可以根据我们的用户手册进行软件操作了。
-
-.. figure:: environment/20.png
-	:align: center
-	:width: 5in
-
-.. centered:: 图2-20 进入AIRLab软件主界面
-
+.. centered:: 图2-17  系统主目录
