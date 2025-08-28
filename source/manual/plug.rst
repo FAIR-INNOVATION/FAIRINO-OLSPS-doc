@@ -19,17 +19,17 @@ bin picking插件模块实现了自动抓取物体的功能。点击菜单栏插
 	:align: center
 	:width: 2.5in
 
-.. centered:: 图5-1 新建binpick工程文件
+.. centered:: 图4-1 新建binpick工程文件
 
 UI界面介绍
 ~~~~~~~~~~~~~~~~~~~
-导入bin picking工程，点击菜单栏插件-bin picking，弹出bin picking弹窗，如图5-2所示。bin picking弹窗分为四个部分：初始设置、位置绑定、抓取位置误差补偿及程序运行四个部分。
+导入bin picking工程，点击菜单栏插件-bin picking，弹出bin picking弹窗，如图4-2所示。bin picking弹窗分为四个部分：初始设置、位置绑定、抓取位置误差补偿及程序运行四个部分。
 
 .. figure:: plug/2.png
 	:align: center
 	:width: 3in
 
-.. centered:: 图5-2  bin picking弹窗
+.. centered:: 图4-2  bin picking弹窗
 
 1. 首先进行初始设置：
 
@@ -39,7 +39,7 @@ UI界面介绍
 	:align: center
 	:width: 3in
 
-.. centered:: 图5-3  初始设置
+.. centered:: 图4-3  初始设置
 
 1. 之后进行位置绑定
 
@@ -51,7 +51,7 @@ UI界面介绍
 	:align: center
 	:width: 3in
 
-.. centered:: 图5-4  固定放置
+.. centered:: 图4-4  固定放置
 
 - 规则放置：用户可以根据需要设置行数、列数、层数和层高等放置规则；设置完之后点击确定绑定位置；终端显示位置绑定成功则成功绑定。
 
@@ -59,7 +59,7 @@ UI界面介绍
 	:align: center
 	:width: 3in
 
-.. centered:: 图5-5  规则放置
+.. centered:: 图4-5  规则放置
 
 3. 抓取位置误差补偿
 
@@ -69,7 +69,7 @@ UI界面介绍
 	:align: center
 	:width: 3in
 
-.. centered:: 图5-6  抓取误差补偿
+.. centered:: 图4-6  抓取误差补偿
 	
 4. 程序运行
 
@@ -81,7 +81,7 @@ UI界面介绍
 	:align: center
 	:width: 3in
 
-.. centered:: 图5-7  手动运行模式
+.. centered:: 图4-7  手动运行模式
 
 先点击拍摄照片，拍摄待抓取物体的照片；拍摄成功后，终端会显示“拍摄照片成功”提示，2D场景显示真实工件的RGB图。
 
@@ -101,7 +101,7 @@ UI界面介绍
 	:align: center
 	:width: 4in
 
-.. centered:: 图5-8  自动运行模式
+.. centered:: 图4-8  自动运行模式
 
 整体操作过程
 ~~~~~~~~~~~~~~~~~~~
@@ -117,7 +117,7 @@ Step2：点位示教
 	:align: center
 	:width: 4in
 
-.. centered:: 图5-9  自动运行模式
+.. centered:: 图4-9  自动运行模式
 
 - 第一次拍照点位：以可以完整拍出抓取物体为原则，在抓取物体正上方示教第一次拍照点位；
 
@@ -132,7 +132,7 @@ Step2：点位示教
 	:align: center
 	:width: 4in
 
-.. centered:: 图5-10  非二次抓取位置绑定
+.. centered:: 图4-10  非二次抓取位置绑定
 
 - 等待抓取位置：抓取点附近位置；
 
@@ -144,7 +144,7 @@ Step2：点位示教
 	:align: center
 	:width: 4in
 
-.. centered:: 图5-11  固定放置位置绑定
+.. centered:: 图4-11  固定放置位置绑定
 
 - 选择固定放置放置点个数，有几个放置点则需要示教几个放置点位；
 
@@ -154,7 +154,7 @@ Step2：点位示教
 	:align: center
 	:width: 4in
 
-.. centered:: 图5-12  固定放置位置绑定
+.. centered:: 图4-12  固定放置位置绑定
 
 - 等一路径点、第二路径点和第三路径点决定了规制放置的放置矩阵；第一路径点和第二路径点决定了放置矩阵的行，第二路径点和第三路径点决定了放置矩阵的列。
    
@@ -176,7 +176,7 @@ UI界面介绍
 	:align: center
 	:width: 6in
 
-.. centered:: 图5-13 喷涂插件弹窗
+.. centered:: 图4-13 喷涂插件弹窗
 
 喷涂参数设置主要作用是选择喷涂模型和设置喷涂参数，包括喷涂方向、法向计算半径、椭圆长半轴、椭圆短半轴等。设置完成后，点击初始化AI，点击AI计算，会自动计算出喷涂轨迹。
 
@@ -184,7 +184,7 @@ UI界面介绍
 	:align: center
 	:width: 3in
 
-.. centered:: 图5-14 喷涂参数设置
+.. centered:: 图4-14 喷涂参数设置
 
 仿真设置主要是对喷涂轨迹进行仿真，先点击轨迹生成，三维场景中生成仿真轨迹。生成的仿真轨迹正确，设置仿真速度，点击运行按钮则可以看到仿真效果。点击停止按钮停止仿真。
 
@@ -192,7 +192,7 @@ UI界面介绍
 	:align: center
 	:width: 3in
 
-.. centered:: 图5-15 仿真设置
+.. centered:: 图4-15 仿真设置
 
 程序运行部分主要是对喷涂程序进行轨迹保存、轨迹传输、轨迹加载等。
 
@@ -200,7 +200,7 @@ UI界面介绍
 	:align: center
 	:width: 3in
 
-.. centered:: 图5-16 程序运行
+.. centered:: 图4-16 程序运行
 
 - 保存轨迹文件：点击“保存轨迹文件”按钮可以将喷涂轨迹保存到本地。
   
@@ -230,7 +230,7 @@ Step4：喷涂界面仿真设置UI界面点击“轨迹生成”，观察喷涂�
 	:align: center
 	:width: 6in
 
-.. centered:: 图5-17 喷涂仿真轨迹
+.. centered:: 图4-17 喷涂仿真轨迹
 
 对于已经计算过喷涂轨迹并将轨迹传输到控制器的工件，在下一次喷涂作业使不需要再次进行AI计算，直接进行轨迹加载再进行仿真即可。
 
@@ -242,7 +242,7 @@ Step4：喷涂界面仿真设置UI界面点击“轨迹生成”，观察喷涂�
 	:align: center
 	:width: 6in
 
-.. centered:: 图5-18 对话式智能助手弹窗
+.. centered:: 图4-18 对话式智能助手弹窗
 
 在输入框输入问题或操作，点击发送，等待AI助手的回复或做出相应的操作。AI助手的主要功能有可以帮助用户导入/导出工程文件、绑定焊接工艺、新增工程树节点等。
 
@@ -250,7 +250,7 @@ Step4：喷涂界面仿真设置UI界面点击“轨迹生成”，观察喷涂�
 	:align: center
 	:width: 3in
 
-.. centered:: 图5-19 AI助手功能
+.. centered:: 图4-19 AI助手功能
 
 以导入一个工程为例：
 
@@ -260,4 +260,4 @@ Step4：喷涂界面仿真设置UI界面点击“轨迹生成”，观察喷涂�
 	:align: center
 	:width: 6in
 
-.. centered:: 图5-20 导入工程
+.. centered:: 图4-20 导入工程
