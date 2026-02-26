@@ -11,3 +11,10 @@
    :caption: 用户手册
 
    manual/index.rst
+
+
+.. toctree::
+   :maxdepth: 5
+   :caption: 资料下载
+
+   manual/download.rst
