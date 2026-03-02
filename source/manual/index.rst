@@ -10,3 +10,11 @@ AIRLab软件用户手册
     quick_start
     analysis
     plug
+
+版本说明
+==================
+
+.. toctree:: 
+    :maxdepth: 5
+
+    version
