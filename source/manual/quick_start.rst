@@ -215,8 +215,6 @@ Step1：首先打开前文提到的“工具坐标系手动标定”界面，然
 
 	标定方法设置
 
-
-
 .. figure:: quick_start/14.png
 	:align: center
 	:width: 6in

@@ -58,7 +58,7 @@ bin picking插件模块实现了自动抓取物体的功能。点击菜单栏插
 
 点击菜单栏-文件，选择文件类型为bin picking，点击“新建”之后导入需要的机器人、工具、工件或者直接打开bin picking工程文件；
 
-.. figure:: plug/1.png
+.. figure:: plug/binpicking_new_project.png
 	:align: center
 	:width: 2.5in
 
@@ -66,7 +66,7 @@ bin picking插件模块实现了自动抓取物体的功能。点击菜单栏插
 
 UI界面介绍
 ~~~~~~~~~~~~~~~~~~~
-.. figure:: plug/2.png
+.. figure:: plug/binpicking_init_target_screw.png
 	:align: center
 	:width: 3in
 
@@ -98,21 +98,21 @@ UI界面介绍
 
 同时，以上选项都具备默认值，若进行目标物体种类切换，插件也会根据当前物体的预设进行变换，预设设置具体如下：
 
-.. figure:: plug/3.png
+.. figure:: plug/initial_setup.png
 	:align: center
-	:width: 3in
+	:width: 6in
 
 	初始设置
 
 螺钉与木块默认使用电动夹爪，锁具则是气动夹爪。全部设置好之后点击“确定”，相应的会开始启动对应目标的“AI节点”，需要等待些许时间，若启动节点成功，则会显示如下弹窗，反之也有失败弹窗。
 
-.. figure:: plug/3.png
+.. figure:: plug/binpicking_ai_node_ok.png
 	:align: center
 	:width: 3in
 
 	AI节点启动成功
 
-.. figure:: plug/3.png
+.. figure:: plug/binpicking_ai_node_fail.png
 	:align: center
 	:width: 3in
 
@@ -140,9 +140,9 @@ UI界面介绍
 
 具体的各种模式的子界面显示如下：
 
-.. figure:: plug/4.png
+.. figure:: plug/position_bind.png
 	:align: center
-	:width: 3in
+	:width: 6in
 
 	位置绑定
 
@@ -156,7 +156,7 @@ UI界面介绍
 
 其界面显示如下：
 
-.. figure:: plug/4.png
+.. figure:: plug/binpicking_bind_fix.png
 	:align: center
 	:width: 3in
 
@@ -166,7 +166,7 @@ UI界面介绍
 
 抓取位置误差补偿是为了消除抓取过程中的系统误差而设置的误差补偿，抓取时如果误差较大可以设置误差补偿系数（基于工具坐标系），设置完系数后点击“确定”。指令反馈区显示设置误差补偿系数成功即成功设置误差补偿系数。
 
-.. figure:: plug/6.png
+.. figure:: plug/binpicking_grasp_comp.png
 	:align: center
 	:width: 3in
 
@@ -178,7 +178,7 @@ UI界面介绍
 
 - 手动运行：选择手动运行，机器人进行一次自动抓取；
 
-.. figure:: plug/7.png
+.. figure:: plug/binpicking_run_manual.png
 	:align: center
 	:width: 3in
 
@@ -192,7 +192,7 @@ UI界面介绍
 
 若目标种类为“锁具”，则手动界面会多出三个按钮，分别为“初次抓取”“位姿调整”“重抓取”，分别对应其二次抓取中三个阶段的“AI计算”过程，即可以手动进行各个阶段的操作，界面如下：
 
-.. figure:: plug/7.png
+.. figure:: plug/binpicking_run_manual_lock.png
 	:align: center
 	:width: 3in
 
@@ -206,9 +206,9 @@ UI界面介绍
 
 重置：点击“重置”按钮，抓取计数器置为0，再次运行则从开始进行抓取，放置在第一个放置位置上，若目标种类为螺钉，则会先执行倒盘动作。
 
-.. figure:: plug/8.png
+.. figure:: plug/binpicking_run_auto.png
 	:align: center
-	:width: 4in
+	:width: 3in
 
 	自动运行模式
 
@@ -269,17 +269,17 @@ Step2：点位示教
    
 5. 自定义示教点位
 
-.. figure:: plug/12.png
+.. figure:: plug/binpicking_bind_custom.png
 	:align: center
-	:width: 4in
+	:width: 3in
 
 	自定义放置位置绑定
 
 - 与固定放置类似，先确定本次目-标任务的目标种类，依次添加对应的放置点，若同一目标需要有多个放置点，更改放置点，保持目标型号不变继续添加即可。   
 
-.. figure:: plug/12.png
+.. figure:: plug/binpicking_bind_custum_add2.png
 	:align: center
-	:width: 4in
+	:width: 3in
 
 	自定义放置位置绑定-结果
 
