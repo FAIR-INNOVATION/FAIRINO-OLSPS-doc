@@ -1092,9 +1092,9 @@ SLAM建图
 
 步骤1：添加柱塞工艺，设置填充工艺、加固工艺、起弧工艺及收弧工艺
 
-.. figure:: analysis/60.png
+.. figure:: analysis/93.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 	添加柱塞工艺
 
@@ -1102,17 +1102,17 @@ SLAM建图
 
 打开AIRLab焊接软件系统，导入工程；编辑工件定位程序，添加移动、拍照及柱塞识别节点；柱塞工件定位程序如图所示：
 
-.. figure:: analysis/60.png
+.. figure:: analysis/pluger2.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 	创建工件定位程序
 
 运行工件定位程序；对柱塞工件进行定位以及柱塞焊缝进行识别，三维场景中显示柱塞的工件模型及柱塞焊缝信息，如图所示；
 
-.. figure:: analysis/60.png
+.. figure:: analysis/pluger1.png
 	:align: center
-	:width: 6in
+	:width: 3in
 
 	柱塞工件的工件定位结果
 
@@ -1122,7 +1122,7 @@ SLAM建图
 
 步骤5：点击程序-生成轨迹三维场景中生成焊接轨迹。
 
-.. figure:: analysis/60.png
+.. figure:: analysis/pluger3.png
 	:align: center
 	:width: 6in
 
