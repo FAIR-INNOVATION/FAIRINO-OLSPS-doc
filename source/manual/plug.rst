@@ -49,20 +49,20 @@
 
 	授权失败
 
-bin picking
+bin-picking
 -------------------
-bin picking插件模块实现了自动抓取物体的功能。点击菜单栏插件-bin picking，主场景分为三维场景和二维显示场景并弹出bin picking弹窗。其中三维场景中显示机器人运动过程，二维显示场景中显示工件的RGB图像和识别出工件的bounding box。
+bin-picking插件模块实现了自动抓取物体的功能。点击菜单栏插件-bin-picking，主场景分为三维场景和二维显示场景并弹出bin-picking弹窗。其中三维场景中显示机器人运动过程，二维显示场景中显示工件的RGB图像和识别出工件的bounding box。
 
-创建bin picking工程
+创建bin-picking工程
 ~~~~~~~~~~~~~~~~~~~
 
-点击菜单栏-文件，选择文件类型为bin picking，点击“新建”之后导入需要的机器人、工具、工件或者直接打开bin picking工程文件；
+点击菜单栏-文件，选择文件类型为bin-picking，点击“新建”之后导入需要的机器人、工具、工件或者直接打开bin-picking工程文件；
 
 .. figure:: plug/binpicking_new_project.png
 	:align: center
 	:width: 2.5in
 
-	新建binpick工程文件
+	新建bin-picking工程文件
 
 UI界面介绍
 ~~~~~~~~~~~~~~~~~~~
@@ -70,9 +70,9 @@ UI界面介绍
 	:align: center
 	:width: 3in
 
-	bin picking弹窗
+	bin-picking弹窗
 
-导入bin picking工程，点击菜单栏插件-bin picking，弹出bin picking弹窗，如下图所示。bin picking弹窗分为四个部分：初始设置、位置绑定、抓取位置误差补偿及程序运行四个部分。整个界面使用流程如下：
+导入bin-picking工程，点击菜单栏插件-bin-picking，弹出bin-picking弹窗，如下图所示。bin-picking弹窗分为四个部分：初始设置、位置绑定、抓取位置误差补偿及程序运行四个部分。整个界面使用流程如下：
 
 1. 首先进行初始设置：
 
@@ -285,7 +285,7 @@ Step2：点位示教
 
 Step3：运行AIRLab软件
 
-一键启动AIRLab软件（确保机械臂已连接，视觉、AI等节点成功启动），打开bin picking插件，先进行初始设置，初始设置成功后进行位置绑定，之后进行自动运行。
+一键启动AIRLab软件（确保机械臂已连接，视觉、AI等节点成功启动），打开bin-picking插件，先进行初始设置，初始设置成功后进行位置绑定，之后进行自动运行。
 
 码垛
 --------
