@@ -11,6 +11,10 @@ AIRLab软件用户手册
     analysis
     plug
 
+语言切换
+
+    \ `English <https://fairino-olsps-doc-en.readthedocs.io/en/latest/>`__\ 
+    
 版本说明
 ==================
 

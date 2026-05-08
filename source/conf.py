@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = '法奥AIRLAB软件用户手册'
-copyright = '2024, 法奥意威（苏州）机器人系统有限公司'
-author = '法奥意威（苏州）机器人系统有限公司'
-release = '1.0'
+copyright = '2024-2026, 法奥（苏州）机器人技术股份有限公司'
+author = '法奥（苏州）机器人技术股份有限公司'
+release = '1.4.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
