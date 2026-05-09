@@ -6,6 +6,10 @@
 欢迎访问AIRLab软件用户手册 ...
 ========================================
 
+语言切换
+
+   \ `English <https://fairino-olsps-doc-en.readthedocs.io/en/latest/>`__\ 
+
 .. toctree::
    :maxdepth: 5
    :caption: 用户手册
