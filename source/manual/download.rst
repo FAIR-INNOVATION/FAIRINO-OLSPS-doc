@@ -1,4 +1,4 @@
 AIRLab软件下载
 ========================================
 
-   :download:`FAIRINO-AIRLabSoftware-V1.4.0-20260428 <https://pan.baidu.com/s/1tZIOc21lhNtCkSspBJrdCg?pwd=v9gn#list/path=%2F>`
+   :download:`FAIRINO-AIRLabSoftware-V2.0.0-20260529 <https://pan.baidu.com/s/15slNu8AsUlNfK9oNLQeivg?pwd=hfgc>`
