@@ -413,7 +413,7 @@ Step2：完成地面拍摄后，调整相机位置对准工件。点击“地面
 
 .. figure:: quick_start/model_const.png
 	:align: center
-	:width: 4in
+	:width: 2.5in
 
 	模型构建程序
 
@@ -421,7 +421,7 @@ Step2：完成地面拍摄后，调整相机位置对准工件。点击“地面
 
 .. figure:: quick_start/model_const_start.png
 	:align: center
-	:width: 4in
+	:width: 2.5in
 
 	模型构建——开始运行
 
